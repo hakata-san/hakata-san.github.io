@@ -213,5 +213,8 @@ div.vn_legend {
 }
 /* Style the active class, and buttons on mouse-over */
 .active {
-    background-color: rgba(0, 194, 255, 0.4);
+    background-color: rgba(0, 194, 255, 0.0);
+	border-color: red;
+	border-style: dashed;
+	border-width: 3px;
 }
