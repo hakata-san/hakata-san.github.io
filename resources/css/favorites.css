@@ -119,6 +119,25 @@ a:hover {
   background: none;
   text-decoration: none;
 }
+/* div.legend Legend */
+#legend {
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	margin-left: -60px;
+	float: left;
+	text-align: center;
+	-epub-ruby-position: over;
+	color: #DDD;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 1.2;
+	text-decoration: none;
+	text-indent: 3%;
+}
 /* div.vn_legend -A2- For Visual Novels legend */
 div.vn_legend {
     -epub-ruby-position: over;
@@ -129,7 +148,7 @@ div.vn_legend {
     font-variant: normal;
     font-weight: normal;
     line-height: 1.2;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
