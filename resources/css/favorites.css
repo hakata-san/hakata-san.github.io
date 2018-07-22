@@ -50,7 +50,7 @@ body {
 	-epub-hyphens: auto;
 }
 a:link {
-    color: #CCC;
+    color: #DDD;
     text-decoration: none;
 }
 a:visited {
@@ -140,7 +140,7 @@ div.vn_legend {
 /* div.vn_list -A3- For Visual Novels list */
 #vn_list {
     -epub-ruby-position: over;
-	color: #CCC;
+	color: #DDD;
 	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 14.5px;
 	font-style: normal;
@@ -158,7 +158,7 @@ div.vn_legend {
 /* div.hv_list -A3- For Hentai Videos list */
 #hv_list {
     -epub-ruby-position: over;
-	color: #CCC;
+	color: #DDD;
 	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 14.5px;
 	font-style: normal;
