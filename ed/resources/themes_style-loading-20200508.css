@@ -1,0 +1,164 @@
+/** Panels **/
+.loading .panel {
+	opacity: 0;
+	animation: panel-loading 200ms ease-out 0s forwards;
+}
+.loading .panel:nth-child(1) { animation-delay: s; }
+.loading .panel:nth-child(2) { animation-delay: 50ms; }
+.loading .panel:nth-child(3) { animation-delay: 10ms; }
+
+@keyframes panel-loading {
+	0% {
+		opacity: 0;
+		background-color: var(--loading-background-color);
+	}
+	50% {
+		background-color: var(--loading-color);
+		border: none;
+		opacity: 1;
+		color: var(--loading-highlight-color);
+	}
+	70% {
+		background-color: var(--panel-background-color);
+		border-color: var(--loading-highlight-color);
+		border-width: 5px;
+		color: var(--loading-color);
+
+	}
+	90% {
+		border-color: var(--loading-color);
+		border-width: 3px;
+	}
+	100% {
+		border-width: 1px;
+		opacity: 1;
+		color: var(--text-color);
+	}
+}
+
+.loading .button,
+.loading .menu-item a {
+	opacity: 0;
+	animation: button-loading 250ms ease-in 800ms forwards;
+}
+.loading .menu-item .icon {
+	opacity: 0;
+	animation: button-icon-loading 250ms ease-in 800ms forwards;
+}
+
+.loading .menu-item .icon {
+	opacity: 0;
+	animation: button-icon-loading 250ms ease-in 800ms forwards;
+}
+.loading .button:hover,
+.loading .menu-item a:hover,
+.loading .menu-item:hover a,
+.loading .menu-item:hover .icon {
+	opacity: 1;
+	animation-fill-mode: none;
+}
+
+.loading .menu .menu-item:nth-child(2) a { animation-delay: 475ms; }
+.loading .menu .menu-item:nth-child(3) a { animation-delay: 475ms; }
+.loading .menu .menu-item:nth-child(4) a { animation-delay: 475ms; }
+.loading .menu .menu-item:nth-child(1) a { animation-delay: 400ms; }
+.loading .menu .menu-item:nth-child(5) a { animation-delay: 725ms; }
+.loading .menu .menu-item:nth-child(6) a { animation-delay: 725ms; }
+.loading .menu .menu-item:nth-child(7) a { animation-delay: 725ms; }
+.loading .menu .menu-item:nth-child(8) a { animation-delay: 975ms; }
+.loading .menu .menu-item:nth-child(9) a { animation-delay: 975ms; }
+.loading .menu .menu-item:nth-child(10) a { animation-delay: 975ms; }
+
+.loading .menu .menu-item:nth-child(1) .icon { animation-delay: 300ms; }
+.loading .menu .menu-item:nth-child(2) .icon { animation-delay: 375ms; }
+.loading .menu .menu-item:nth-child(3) .icon { animation-delay: 375ms; }
+.loading .menu .menu-item:nth-child(4) .icon { animation-delay: 375ms; }
+.loading .menu .menu-item:nth-child(5) .icon { animation-delay: 625ms; }
+.loading .menu .menu-item:nth-child(6) .icon { animation-delay: 625ms; }
+.loading .menu .menu-item:nth-child(7) .icon { animation-delay: 625ms; }
+.loading .menu .menu-item:nth-child(8) .icon { animation-delay: 875ms; }
+.loading .menu .menu-item:nth-child(9) .icon { animation-delay: 875ms; }
+.loading .menu .menu-item:nth-child(10) .icon { animation-delay: 875ms; }
+
+.loading :nth-child(1) .button { animation-delay: 300ms; }
+.loading :nth-child(2) .button { animation-delay: 375ms; }
+.loading :nth-child(3) .button { animation-delay: 375ms; }
+.loading :nth-child(4) .button { animation-delay: 375ms; }
+.loading :nth-child(5) .button { animation-delay: 625ms; }
+.loading :nth-child(6) .button { animation-delay: 625ms; }
+.loading :nth-child(7) .button { animation-delay: 625ms; }
+.loading :nth-child(8) .button { animation-delay: 875ms; }
+.loading :nth-child(9) .button { animation-delay: 875ms; }
+.loading :nth-child(10) .button { animation-delay: 875ms; }
+
+
+@keyframes button-loading {
+	0% {
+		opacity: 0;
+		background-color: var(--loading-background-color);
+		color: var(--loading-color);
+	}
+	90% {
+		opacity: 1;
+		background-color: var(--loading-background-color);
+		color: var(--loading-color);
+	}
+	100% {
+		opacity: 1;
+		background-color: var(--button-background-color);
+		color: var(--text-color);
+	}
+}
+
+@keyframes button-icon-loading {
+	0% {
+		opacity: 0;
+		background-color: var(--loading-background-color);
+		color: var(--loading-color);
+	}
+	90% {
+		opacity: 1;
+		background-color: var(--loading-background-color);
+		color: var(--loading-color);
+	}
+	100% {
+		opacity: 1;
+		background-color: var(--button-icon-background-color);
+		color: var(--text-color);
+	}
+}
+.entry-content * {
+	animation: text-loading 500ms ease 250ms;
+}
+@keyframes text-loading {
+	0% {
+		color: var(--loading-highlight-color);
+	}
+	50% {
+		color: var(--loading-color);
+	}
+	100% {
+		color: var(--text-color);
+	}
+}
+
+.entry-content h2 {
+	animation: heading-rule-loading 250ms linear 200ms forwards;
+}
+@keyframes heading-rule-loading {
+	0% {
+		border-top: 1px solid hsla(0, 0%, 0%, 0);
+	}
+	50% {
+		border-top: 5px solid var(--loading-highlight-color);
+	}
+	70% {
+		border-top: 3px solid var(--loading-color);
+	}
+	90% {
+		border-top: 1px solid var(--loading-color);
+	}
+	100% {
+		border-top: var(--panel-rule);
+	}
+}
