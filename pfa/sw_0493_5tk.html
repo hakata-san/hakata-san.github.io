@@ -60,6 +60,15 @@ img.emoji {
 :root { --color-theme: 26; }#wallpaper { background-image: url('https://i.imgur.com/ZfHvDTl.png'); }
 </style>
 <title>Dossier SW-0493-5TK</title>
+	<!-- Add jQuery library -->
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="https://fancyapps.com/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+	<link rel="stylesheet" type="text/css" href="https://fancyapps.com/fancybox/source/jquery.fancybox.css?v=2.1.7" media="screen" />
 </head>
 <body class="page-template-default page page-id-20 page-parent loading">
 
@@ -325,7 +334,9 @@ img.emoji {
 <table>
 <tbody>
   <tr>
-	<td style="text-align:center"><a href="https://i.imgur.com/8Vf5VtH.gif" target="_blank"><img src="https://i.imgur.com/8Vf5VtH.gif" alt="Picture" width="853px" height="480px"></a></td>
+	<td style="text-align:center"><a id="single_2" href="https://i.imgur.com/8Vf5VtH.gif" title=""><img src="http://farm1.staticflickr.com/756/22625719192_fdc3369588_m.jpg" alt="" width="853px" height="480px" /></a>
+	
+	<a href="https://i.imgur.com/8Vf5VtH.gif" target="_blank"><img src="https://i.imgur.com/8Vf5VtH.gif" alt="Picture" width="853px" height="480px"></a></td>
   </tr>
 </tbody>
 </table>
@@ -475,6 +486,20 @@ img.emoji {
 	_stq = window._stq || [];
 	_stq.push([ 'view', {v:'ext',j:'1:8.2.3',blog:'176944257',post:'0',tz:'0',srv:'thefatherhoodwing.net'} ]);
 	_stq.push([ 'clickTrackerInit', '176944257', '0' ]);
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#single_2").fancybox({
+    	openEffect	: 'elastic',
+    	closeEffect	: 'elastic',
+
+    	helpers : {
+    		title : {
+    			type : 'inside'
+    		}
+    	}
+    });
+});
 </script>
 </body>
 </html>
