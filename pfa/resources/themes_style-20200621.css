@@ -11,28 +11,28 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @font-face {
 	font-family: 'caps';
-	src: url('pfa/resources/fonts/ec.woff2') format('woff2');
+	src: url('/pfa/resources/fonts/ec.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'body';
 	font-style: normal;
 	font-weight: 400;
-	src: url('pfa/resources/fonts/pn-regular.woff2') format('woff2');
+	src: url('/pfa/resources/fonts/pn-regular.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'body';
 	font-style: normal;
 	font-weight: bold;
-	src: url('pfa/resources/fonts/pn-bold.woff2') format('woff2');
+	src: url('/pfa/resources/fonts/pn-bold.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'body';
 	font-style: italic;
 	font-weight: normal;
-	src: url('pfa/resources/fonts/pn-italic.woff2') format('woff2');
+	src: url('/pfa/resources/fonts/pn-italic.woff2') format('woff2');
 }
 
 :root {
