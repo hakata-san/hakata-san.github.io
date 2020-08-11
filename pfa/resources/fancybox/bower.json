@@ -1,0 +1,35 @@
+{
+	"name": "fancybox",
+	"title": "fancyBox",
+	"version": "2.1.7",
+	"description": "fancyBox offers an elegant way to present images, html content and multimedia for webpages",
+	"keywords": [
+      "lightbox",
+      "effect",
+      "responsive",
+      "modal",
+      "window",
+      "ui"
+    ],
+	"license": "GPLv3",
+	"homepage": "http://fancyapps.com/fancybox/",
+	"main": [
+		"pfa/resources/fancybox/source/jquery.fancybox.css",
+		"pfa/resources/fancybox/source/jquery.fancybox.pack.js",
+		"pfa/resources/fancybox/source/blank.gif",
+		"pfa/resources/fancybox/source/fancybox_loading.gif",
+		"pfa/resources/fancybox/source/fancybox_loading@2x.gif",
+		"pfa/resources/fancybox/source/fancybox_overlay.png",
+		"pfa/resources/fancybox/source/fancybox_sprite.png",
+		"pfa/resources/fancybox/source/fancybox_sprite@2x.png"
+	],
+	"ignore": [
+    	"**/.*",
+    	"fancybox.jquery.json",
+    	"demo"
+	],
+	"dependencies": {
+		"jquery": ">=1.10",
+		"jquery-mousewheel": "~3.1.3"
+	}
+}
