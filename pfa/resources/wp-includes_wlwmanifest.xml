@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="viewport" content="width=device-width" /><title>https://thefatherhoodwing.net/wp-includes/wlwmanifest.xml</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css" /></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions"><pre id="line1"><span></span><span class="pi">&lt;?xml version="1.0" encoding="utf-8" ?&gt;</span><span>
+<span id="line2"></span>
+<span id="line3"></span></span><span>&lt;<span class="start-tag">manifest</span> <span class="attribute-name">xmlns</span>="<a class="attribute-value">http://schemas.microsoft.com/wlw/manifest/weblog</a>"&gt;</span><span>
+<span id="line4"></span>
+<span id="line5"></span>  </span><span>&lt;<span class="start-tag">options</span>&gt;</span><span>
+<span id="line6"></span>    </span><span>&lt;<span class="start-tag">clientType</span>&gt;</span><span>WordPress</span><span>&lt;/<span class="end-tag">clientType</span>&gt;</span><span>
+<span id="line7"></span>	</span><span>&lt;<span class="start-tag">supportsKeywords</span>&gt;</span><span>Yes</span><span>&lt;/<span class="end-tag">supportsKeywords</span>&gt;</span><span>
+<span id="line8"></span>	</span><span>&lt;<span class="start-tag">supportsGetTags</span>&gt;</span><span>Yes</span><span>&lt;/<span class="end-tag">supportsGetTags</span>&gt;</span><span>
+<span id="line9"></span>  </span><span>&lt;/<span class="end-tag">options</span>&gt;</span><span>
+<span id="line10"></span>
+<span id="line11"></span>  </span><span>&lt;<span class="start-tag">weblog</span>&gt;</span><span>
+<span id="line12"></span>    </span><span>&lt;<span class="start-tag">serviceName</span>&gt;</span><span>WordPress</span><span>&lt;/<span class="end-tag">serviceName</span>&gt;</span><span>
+<span id="line13"></span>    </span><span>&lt;<span class="start-tag">imageUrl</span>&gt;</span><span>images/wlw/wp-icon.png</span><span>&lt;/<span class="end-tag">imageUrl</span>&gt;</span><span>
+<span id="line14"></span>    </span><span>&lt;<span class="start-tag">watermarkImageUrl</span>&gt;</span><span>images/wlw/wp-watermark.png</span><span>&lt;/<span class="end-tag">watermarkImageUrl</span>&gt;</span><span>
+<span id="line15"></span>    </span><span>&lt;<span class="start-tag">homepageLinkText</span>&gt;</span><span>View site</span><span>&lt;/<span class="end-tag">homepageLinkText</span>&gt;</span><span>
+<span id="line16"></span>    </span><span>&lt;<span class="start-tag">adminLinkText</span>&gt;</span><span>Dashboard</span><span>&lt;/<span class="end-tag">adminLinkText</span>&gt;</span><span>
+<span id="line17"></span>    </span><span>&lt;<span class="start-tag">adminUrl</span>&gt;</span><span>
+<span id="line18"></span>      </span><span class="cdata">&lt;![CDATA[
+<span id="line19"></span>			{blog-postapi-url}/../wp-admin/
+<span id="line20"></span>		]]&gt;</span><span>
+<span id="line21"></span>    </span><span>&lt;/<span class="end-tag">adminUrl</span>&gt;</span><span>
+<span id="line22"></span>    </span><span>&lt;<span class="start-tag">postEditingUrl</span>&gt;</span><span>
+<span id="line23"></span>      </span><span class="cdata">&lt;![CDATA[
+<span id="line24"></span>			{blog-postapi-url}/../wp-admin/post.php?action=edit&amp;post={post-id}
+<span id="line25"></span>		]]&gt;</span><span>
+<span id="line26"></span>    </span><span>&lt;/<span class="end-tag">postEditingUrl</span>&gt;</span><span>
+<span id="line27"></span>  </span><span>&lt;/<span class="end-tag">weblog</span>&gt;</span><span>
+<span id="line28"></span>
+<span id="line29"></span>  </span><span>&lt;<span class="start-tag">buttons</span>&gt;</span><span>
+<span id="line30"></span>    </span><span>&lt;<span class="start-tag">button</span>&gt;</span><span>
+<span id="line31"></span>      </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>0</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line32"></span>      </span><span>&lt;<span class="start-tag">text</span>&gt;</span><span>Manage Comments</span><span>&lt;/<span class="end-tag">text</span>&gt;</span><span>
+<span id="line33"></span>      </span><span>&lt;<span class="start-tag">imageUrl</span>&gt;</span><span>images/wlw/wp-comments.png</span><span>&lt;/<span class="end-tag">imageUrl</span>&gt;</span><span>
+<span id="line34"></span>      </span><span>&lt;<span class="start-tag">clickUrl</span>&gt;</span><span>
+<span id="line35"></span>        </span><span class="cdata">&lt;![CDATA[
+<span id="line36"></span>				{blog-postapi-url}/../wp-admin/edit-comments.php
+<span id="line37"></span>			]]&gt;</span><span>
+<span id="line38"></span>      </span><span>&lt;/<span class="end-tag">clickUrl</span>&gt;</span><span>
+<span id="line39"></span>    </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line40"></span>
+<span id="line41"></span>  </span><span>&lt;/<span class="end-tag">buttons</span>&gt;</span><span>
+<span id="line42"></span>
+<span id="line43"></span></span><span>&lt;/<span class="end-tag">manifest</span>&gt;</span><span>
+<span id="line44"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Vai alla riga…" accesskey="L"></menuitem><menuitem id="wrapLongLines" label="A capo automatico" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Evidenzia sintassi" type="checkbox" checked="true"></menuitem></menu></body></html>
