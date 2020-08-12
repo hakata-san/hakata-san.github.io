@@ -709,7 +709,7 @@ article .notice {
 	flex-wrap: wrap;
 	width: 100%;
 	background: hsla(0, 0%, 0%, 0.5);
-	margin-bottom: 10px;
+	margin: auto;
 }
 
 .banner h3 {
