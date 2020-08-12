@@ -709,7 +709,7 @@ article .notice {
 	flex-wrap: wrap;
 	width: 100%;
 	background: hsla(0, 0%, 0%, 0.5);
-	margin: auto;
+	margin-bottom: 10px;
 }
 
 .banner h3 {
@@ -744,13 +744,13 @@ article .notice {
 
 .banner a {
 	display: inline-block;
-	width: 100%;
+	width: 15%;
 	font-family: 'caps', sans-serif;
 	background-color: var(--button-background-color);
 	color: var(--button-text-color);
 	padding: 10px;
 	box-sizing: border-box;
-	margin: 10px 0;
+	margin: auto;
 }
 
 .banner a:hover {
