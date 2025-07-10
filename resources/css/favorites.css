@@ -13,7 +13,7 @@ body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, blockquote {
 /* Background Image - body::after or div::after */
 body::after {
   content: "";
-  background-image: url("https://i.imgur.com/oDcJc5y.png");
+  background-image: url("/resources/css/background_image.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: fixed;
